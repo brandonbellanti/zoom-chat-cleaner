@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Chat Cleaner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="centered">
+    <img src="images/iconfinder_06_111027.svg" alt="">
+    <h1>ZOOM CHAT CLEANER</h1>
+    <p>Remove private comments and format your Zoom chat</p>
+    <br>
+
+    <div id="original">
+        <h2>Original Text</h2>
+        <p>Copy all comments from the Zoom chat and paste them in the box below</p>
+        <textarea id="chatText" type="text"></textarea><br>
+        <button id="cleanButton" onclick="cleanText()">Clean text!</button>
+    </div>
+    <br>
+    <div id="cleaned">
+        <br>
+        <h2>Cleaned text</h2>
+        <button id="copyButton" onclick="copyFormatted(document.getElementById('cleanedText').innerHTML)">Copy cleaned text!</button>
+        <p id="cleanedText"></p>
+    </div>
+</div>
+<footer>Built by Brandon Bellanti (brandonbellanti[at]gmail.com) | 2020</footer>
+</body>
+</html>

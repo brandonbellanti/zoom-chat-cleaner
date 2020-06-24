@@ -1,0 +1,58 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 4vw;
+}
+p {
+    font-weight: 200;}
+
+img {
+    max-width: 200px;
+    max-height: 120px;
+}
+
+h1 {
+    margin: -14px 0 ;
+}
+
+
+textarea {
+    width: 50%;
+    min-width: 300px;
+    min-height: 160px;
+    font-weight: 200;
+}
+
+#cleaned {
+    display: none;
+    background-color: #f1f1f1;
+    margin-left: -4vw;
+    margin-right: -4vw;
+}
+
+#cleanedText {
+    padding: 0 20%;
+    text-align: left;
+}
+
+#copied {
+    display: none;
+}
+
+footer {
+    font-size: smaller;
+    font-weight: 200;
+    text-align: right;
+}
+
+.strong {
+    font-weight: 400;
+}
+
+.centered {
+    text-align: center;
+    min-height: 90vh;
+}
